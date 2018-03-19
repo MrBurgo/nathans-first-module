@@ -1,5 +1,5 @@
 // Geometry stuff
-const { sphereVolume, torusVolume } = require('./volume.js');
+const { sphereVolume, torusVolume } = require('./src/volume.js');
 const chalk = require('chalk')
 
 console.log(chalk.yellow(torusVolume(4, 3)));

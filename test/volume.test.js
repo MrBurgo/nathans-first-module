@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { sphereVolume, torusVolume } = require('./volume');
+const { sphereVolume, torusVolume } = require('../src/volume');
 
 describe('Canary test', () => {
   it('expects true to be true', () => {
