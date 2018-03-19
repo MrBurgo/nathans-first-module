@@ -1,0 +1,24 @@
+{
+  "name": "nathans-first-module",
+  "version": "1.0.0",
+  "description": "Build and burn for node modules",
+  "main": "geometry.js",
+  "dependencies": {
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrBurgo/nathans-first-module.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrBurgo/nathans-first-module/issues"
+  },
+  "homepage": "https://github.com/MrBurgo/nathans-first-module#readme"
+}
