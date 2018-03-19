@@ -1,7 +1,6 @@
 // Geometry stuff
+const { sphereVolume, torusVolume } = require('./volume.js')
 
-function torusVolume(majorRadius, minorRadius) {
-  return (Math.PI * Math.pow(minorRadius, 2)) * (2 * Math.PI * majorRadius);
-}
+console.log(torusVolume(4, 3));
 
-console.log(torusVolume(4,3))
+console.log(sphereVolume(1));
